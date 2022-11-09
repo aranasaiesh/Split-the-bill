@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hide {
+	display: none;
+}
+
+.container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#sum {
+    margin: 2px;
+}
+
+#numberOfFriends {
+    margin: 2px;
+}
+
+#tip {
+    margin: 2px;
+}
+
+.form__button {
+    margin: 2px;
+    padding: 2px;
+}
